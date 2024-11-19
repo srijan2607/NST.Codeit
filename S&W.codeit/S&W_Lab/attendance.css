@@ -1,0 +1,15 @@
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+}
+#page-title {
+  font-size: 25px;
+  color: #ff6347;
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}

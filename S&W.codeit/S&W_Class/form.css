@@ -1,0 +1,14 @@
+form {
+  background-color: antiquewhite;
+  border: solid 1px black;
+  padding: 10px;
+}
+input {
+  border: solid 2px black;
+}
+input:hover {
+  background-color: darkgrey;
+}
+h2 {
+  text-align: center;
+}
