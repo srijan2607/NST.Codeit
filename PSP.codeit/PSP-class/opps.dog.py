@@ -34,30 +34,15 @@
 # ____________________________________________________________________________________
 
 # class Employee:
-# class Employee:
-#     def __init__(self, name, salary):
-#         self.name = name
-#         self.salary = salary
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
 
-#     def annual_salary(self):
-#         return (12 * self.salary)
+    def annual_salary(self):
+        return (12 * self.salary)
     
-# nm = input()
-# sal = int(input())
-# emp = Employee(nm,sal)
-# print(emp.annual_salary())
-
-class Counter:
-    def __init__(self):
-        self.count = 0
-    
-    def increment(self):
-        self.count += 1
-    
-    def get_count(self):
-        return self.count
-
-counter = Counter()
-counter.increment()
-counter.increment()
-print(counter.get_count())
+nm = input()
+sal = int(input())
+emp = Employee(nm,sal)
+print(emp.annual_salary())
