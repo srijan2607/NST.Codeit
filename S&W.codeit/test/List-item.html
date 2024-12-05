@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Colorful Nested List</title>
+    <style>
+      ol > li {
+        background-color: #f08080;
+        font-size: 25px;
+        padding: 5px;
+      }
+      ol > li:first-child {
+        background-color: #fafad2;
+      }
+      ol > li:last-child {
+        background-color: #ffb6c1;
+      }
+      ol > li > ul > li {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li>
+        Item 1
+        <ul>
+          <li>Subitem 1.1</li>
+          <li>Subitem 1.2</li>
+        </ul>
+      </li>
+      <li>
+        Item 2
+        <ul>
+          <li>Subitem 2.1</li>
+          <li>Subitem 2.2</li>
+        </ul>
+      </li>
+      <li>
+        Item 3
+        <ul>
+          <li>Subitem 3.1</li>
+          <li>Subitem 3.2</li>
+        </ul>
+      </li>
+    </ol>
+  </body>
+</html>

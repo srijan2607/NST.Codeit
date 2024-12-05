@@ -1,0 +1,26 @@
+body {
+  background-color: #f4f4f4;
+}
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  align-content: center;
+  padding: 20px;
+  justify-content: center;
+}
+.gallery-item {
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+.Featured {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  grid-column: span 2;
+  grid-row: span 2;
+}
