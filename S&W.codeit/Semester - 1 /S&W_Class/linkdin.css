@@ -1,0 +1,38 @@
+.container {
+  margin: 0px 2px;
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: red;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.body {
+  background-color: green;
+  height: 100%;
+}
+.sidebar-Left {
+  width: 25%;
+  border: 2px solid;
+  height: 100%;
+}
+.sidebar-right {
+  width: 25%;
+  border: 2px solid;
+  height: 100%;
+}
+.post {
+  width: 50%;
+  border: 2px solid black;
+  height: 100%;
+}
+.body {
+  display: flex;
+  gap: 10px;
+}

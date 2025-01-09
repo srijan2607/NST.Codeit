@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container {
+        margin: 0px 20px;
+        height: 100vh;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        background-color: red;
+        height: 40px;
+        display: flex;
+        /* Main axis X */
+        justify-content: space-between;
+        padding: 10px;
+        /* y-axis cross axis */
+        align-items: center;
+        color: white;
+      }
+      .body {
+        background-color: aqua;
+        height: 100%;
+      }
+      .left-sidebar {
+        width: 25%;
+        border: 2px solid black;
+        height: 100%;
+      }
+      .right-sidebar {
+        width: 25%;
+        border: 2px solid black;
+        height: 100%;
+      }
+      .main-content {
+        width: 50%;
+        border: 2px solid black;
+        height: 100%;
+      }
+      .body {
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>Logo</div>
+        <input placeholder="Search" />
+        <div>Home</div>
+        <div>My Networks</div>
+        <div>Jobs</div>
+        <div>Messaging</div>
+        <div>Notification</div>
+        <div>Me</div>
+        <div>Premium</div>
+      </div>
+      <div class="body">
+        <div class="left-sidebar"></div>
+        <div class="main-content"></div>
+        <div class="right-sidebar"></div>
+      </div>
+    </div>
+  </body>
+</html>
