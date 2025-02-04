@@ -12,4 +12,3 @@
 // console.log(typeof (1 / 0));
 
 // console.log("hello" * 2);
-co;
